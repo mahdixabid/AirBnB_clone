@@ -5,6 +5,10 @@ header {
     border-bottom: 1px solid;
     color: #CCCCCC;
 }
-header .logo {
+header .logo{
+    height: inherit;
+    width: inherit;
+    background: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/logo.png");
+    background-repeat: no-repeat;
     margin-left: 20px;
 }
