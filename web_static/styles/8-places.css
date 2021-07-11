@@ -94,3 +94,12 @@ section.places {
     width: 100%;
     margin-bottom: 10px;
   }
+  footer p {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484848;
+
+}

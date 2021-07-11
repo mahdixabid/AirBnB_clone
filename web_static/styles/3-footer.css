@@ -1,5 +1,5 @@
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0px;
     color: white;
     height: 60px;
@@ -12,4 +12,5 @@ footer p {
     align-items: center;
     justify-content: center;
     color: #484848;
+
 }
