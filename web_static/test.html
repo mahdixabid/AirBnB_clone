@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
-    #DivForHoverItem {
-        height: 50px;
-        width: 300px;
-        background-color: red;
-    }
-    
-    #HiddenText {
-        display: none;
-        color: black;
-    }
-    
-    #DivForHoverItem:hover #HiddenText {
-        display:block;
-    }
+  .flex {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: row;
+      padding: 20px;
+      margin: 20px;
+  }
+  .flex h2 {
+    border: red solid 5px;
+    width: 70px;
+  }
 </style>
 <body>
-    <div id="DivForHoverItem">
-        <div id="HiddenText"><p>Hidden text</p></div>
-      </div></body>
+    <div class="flex">
+<h2>BOX 1 </h2>
+<h2>BOX 2 </h2>
+<h2>BOX 3 </h2>
+<h2>BOX 4 </h2>
+<h2>BOX 5 </h2>
+</div>
+    </body>
 </html>
