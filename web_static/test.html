@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    #DivForHoverItem {
+        height: 50px;
+        width: 300px;
+        background-color: red;
+    }
+    
+    #HiddenText {
+        display: none;
+        color: black;
+    }
+    
+    #DivForHoverItem:hover #HiddenText {
+        display:block;
+    }
+</style>
+<body>
+    <div id="DivForHoverItem">
+        <div id="HiddenText"><p>Hidden text</p></div>
+      </div></body>
+</html>
